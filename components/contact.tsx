@@ -72,7 +72,7 @@ export function Contact() {
             Get in <span className="text-primary">Touch</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Have questions or want to book us for your event? We'd love to hear
+            Have questions or want to book us for your event? We&apos;d love to hear
             from you!
           </p>
         </motion.div>
@@ -183,7 +183,7 @@ export function Contact() {
                 animate={{ opacity: 1, y: 0 }}
                 className="mt-4 p-4 bg-green-500/10 border border-green-500/20 rounded-lg text-green-600 dark:text-green-400 text-center"
               >
-                ✓ Message sent successfully to chavafd@outlook.com! We'll get back to you soon.
+                ✓ Message sent successfully to chavafd@outlook.com! We&apos;ll get back to you soon.
               </motion.div>
             )}
           </motion.form>

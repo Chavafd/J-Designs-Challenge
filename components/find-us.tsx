@@ -47,7 +47,7 @@ export function FindUs() {
             Where to <span className="text-primary">Find Us</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            We're always on the move! Check out our weekly schedule to find us
+            We&apos;re always on the move! Check out our weekly schedule to find us
             in your neighborhood.
           </p>
         </motion.div>

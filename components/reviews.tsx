@@ -104,7 +104,7 @@ export function Reviews() {
             What People <span className="text-primary">Say</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Don't just take our word for it - hear from our satisfied customers
+            Don&apos;t just take our word for it - hear from our satisfied customers
             across all platforms.
           </p>
         </motion.div>
