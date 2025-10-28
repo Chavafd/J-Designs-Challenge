@@ -6,7 +6,7 @@ A modern, high-performance food truck website built with cutting-edge technologi
 
 ### Core Requirements
 - ✅ **Hero Section** - Stunning video background with animated tagline and CTA
-- ✅ **Menu** - 17 dishes with filtering, images, descriptions, and prices
+- ✅ **Menu** - 15+ dishes with filtering, images, descriptions, and prices
 - ✅ **Gallery** - Interactive lightbox with smooth transitions
 - ✅ **About Us** - Brand story with animated feature cards
 - ✅ **Find Us** - Interactive map with weekly schedule
@@ -17,6 +17,7 @@ A modern, high-performance food truck website built with cutting-edge technologi
 - ✅ **Dark/Light Mode Toggle** - Smooth theme switching with next-themes
 - ✅ **Parallax Effects** - Layered background animations
 - ✅ **Preloader Animation** - Branded loading experience
+- ✅ **Customer Reviews** - Social proof with ratings from multiple platforms
 - ✅ **Custom Hover Animations** - On menu cards, buttons, and CTAs
 - ✅ **Scroll-triggered Animations** - Using Framer Motion
 - ✅ **Responsive Design** - Optimized for all devices
@@ -83,9 +84,10 @@ npm start
 ├── components/
 │   ├── header.tsx            # Sticky navigation with smooth scrolling
 │   ├── hero.tsx              # Video background hero section
-│   ├── menu.tsx              # Filterable menu with 17+ dishes
+│   ├── menu.tsx              # Filterable menu with 15+ dishes
 │   ├── gallery.tsx           # Lightbox gallery
 │   ├── about.tsx             # About section with features
+│   ├── reviews.tsx           # Customer reviews and ratings
 │   ├── find-us.tsx           # Location schedule and map
 │   ├── map.tsx               # Leaflet map component
 │   ├── contact.tsx           # Contact form with validation
