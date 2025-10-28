@@ -133,9 +133,9 @@ const menuItems = [
   },
   {
     id: 13,
-    name: "Flan",
+    name: "Crepes",
     category: "Desserts",
-    description: "Creamy caramel custard with a silky texture",
+    description: "Thin French pancakes with Nutella, strawberries, and whipped cream",
     price: "$5.50",
     image: "https://images.unsplash.com/photo-1587314168485-3236d6710814?w=400&q=80",
     spicy: false,
