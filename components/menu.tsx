@@ -123,16 +123,6 @@ const menuItems = [
   },
   {
     id: 12,
-    name: "Churros",
-    category: "Desserts",
-    description: "Crispy fried dough with cinnamon sugar and chocolate sauce",
-    price: "$6.00",
-    image: "https://images.unsplash.com/photo-1599599810769-bcde5a160d32?w=400&q=80",
-    spicy: false,
-    featured: true,
-  },
-  {
-    id: 13,
     name: "Tres Leches Cake",
     category: "Desserts",
     description: "Traditional Latin American sponge cake soaked in three milks",
@@ -142,7 +132,7 @@ const menuItems = [
     featured: false,
   },
   {
-    id: 14,
+    id: 13,
     name: "Flan",
     category: "Desserts",
     description: "Creamy caramel custard with a silky texture",
@@ -152,17 +142,7 @@ const menuItems = [
     featured: false,
   },
   {
-    id: 15,
-    name: "Horchata",
-    category: "Drinks",
-    description: "Traditional rice-based drink with cinnamon",
-    price: "$3.50",
-    image: "https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=400&q=80",
-    spicy: false,
-    featured: false,
-  },
-  {
-    id: 16,
+    id: 14,
     name: "Jamaica",
     category: "Drinks",
     description: "Refreshing hibiscus tea served over ice",
@@ -172,7 +152,7 @@ const menuItems = [
     featured: false,
   },
   {
-    id: 17,
+    id: 15,
     name: "Fresh Lemonade",
     category: "Drinks",
     description: "House-made lemonade with fresh mint",
