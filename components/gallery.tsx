@@ -107,6 +107,7 @@ export function Gallery() {
                 src={image.src}
                 alt={image.alt}
                 fill
+                sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, 25vw"
                 className="object-cover transition-transform duration-500 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-colors duration-300 flex items-center justify-center">
@@ -153,7 +154,7 @@ export function Gallery() {
               initial={{ scale: 0.8 }}
               animate={{ scale: 1 }}
               exit={{ scale: 0.8 }}
-              className="relative max-w-5xl max-h-[80vh] aspect-video"
+              className="relative w-full max-w-5xl h-[80vh]"
               onClick={(e) => e.stopPropagation()}
             >
               <Image
@@ -161,6 +162,8 @@ export function Gallery() {
                 alt={galleryImages[selectedImage].alt}
                 fill
                 className="object-contain"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 80vw"
+                priority
               />
             </motion.div>
 
