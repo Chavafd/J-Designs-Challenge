@@ -2,7 +2,7 @@
 
 A modern, high-performance food truck website built with cutting-edge technologies to deliver an exceptional user experience.
 
-🔗 **Live Demo**: [https://j-designs-challenge.vercel.app](https://j-designs-challenge.vercel.app)
+🔗 **Live Demo**: [https://j-designs-challenge-htccbnax2-salvador-fernandezs-projects.vercel.app](https://j-designs-challenge-htccbnax2-salvador-fernandezs-projects.vercel.app)
 
 ## ✨ Features
 
