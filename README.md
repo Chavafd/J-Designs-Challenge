@@ -180,6 +180,3 @@ MIT License - feel free to use this project as inspiration or template.
 - Loyalty program
 - Multi-language support
 
----
-
-**Built with ❤️ for the J-Designs Technical Challenge**
