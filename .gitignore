@@ -37,4 +37,8 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+# large media files
+public/hero-video.mp4
+*.mp4
+
 .vercel

@@ -5,14 +5,8 @@ import { ChevronDown, Play } from "lucide-react";
 import { useEffect, useState } from "react";
 
 export function Hero() {
-  const [isVideoLoaded, setIsVideoLoaded] = useState(false);
-
-  useEffect(() => {
-    // Preload video
-    const video = document.createElement("video");
-    video.src = "https://assets.mixkit.co/videos/preview/mixkit-chef-cooking-in-a-restaurant-kitchen-4253-large.mp4";
-    video.onloadeddata = () => setIsVideoLoaded(true);
-  }, []);
+  const [isVideoLoaded, setIsVideoLoaded] = useState(true); // Set to true by default to try loading immediately
+  const [videoError, setVideoError] = useState(false);
 
   const scrollToMenu = () => {
     const menuSection = document.querySelector("#menu");
@@ -25,16 +19,19 @@ export function Hero() {
     <section id="home" className="relative h-screen w-full overflow-hidden">
       {/* Video Background */}
       <div className="absolute inset-0 z-0">
-        {isVideoLoaded ? (
+        {isVideoLoaded && !videoError ? (
           <video
             autoPlay
             loop
             muted
             playsInline
             className="w-full h-full object-cover"
+            onLoadedData={() => console.log("Video is ready to play")}
+            onPlay={() => console.log("Video started playing")}
+            onError={(e) => console.error("Video playback error:", e)}
           >
             <source
-              src="https://assets.mixkit.co/videos/preview/mixkit-chef-cooking-in-a-restaurant-kitchen-4253-large.mp4"
+              src="/hero-video.mp4"
               type="video/mp4"
             />
           </video>
